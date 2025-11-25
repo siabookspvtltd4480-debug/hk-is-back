@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Krithika's Home Foods</title>
+  <style>
+    body, h1, h2, h3, p, ul { margin: 0; padding: 0; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+    body { background: #fff8f0; color: #423118; }
+    .container { width: 95%; max-width: 1100px; margin: auto; padding: 15px 0; }
+    header { background: #af5541; color: #fff; padding: 30px 0 18px 0; text-align: center; box-shadow: 0 6px 18px rgba(175,85,65,0.08);}
+    header h1 { font-size: 2.7rem; font-weight: 900; font-family: 'Georgia', serif; margin-bottom: 7px; letter-spacing: 2px;}
+    header p { font-size: 1.18rem; font-weight: 400; letter-spacing: 1.1px;}
+
+    .hero { display: flex; flex-wrap: wrap; justify-content: center; align-items: center; background: #fdeede; padding: 35px 18px 30px 18px; gap: 30px; border-radius: 13px; margin: 32px 0;}
+    .hero-image { flex: 1 1 240px; max-width: 350px; border-radius: 18px; overflow: hidden; background: #fff; display: flex; align-items: center; justify-content: center; box-shadow: 0 6px 15px rgba(175,85,65,0.20);}
+    .hero-image img { width: 90%; border-radius: 10px; }
+    .hero-text { flex: 2 1 300px; max-width: 540px; }
+    .hero-text h2 { font-size: 2.25rem; color: #af5541; margin-bottom: 12px;}
+    .hero-text p { font-size: 1.12rem; margin-bottom: 18px;}
+    .hero-text .whatsapp-btn {
+      background: #25D366;
+      color: #fff;
+      padding: 12px 36px;
+      font-size: 1.05rem;
+      border-radius: 25px;
+      border: none;
+      display: inline-block;
+      font-weight: bold;
+      transition: background 0.2s;
+      text-decoration: none;
+      box-shadow: 0 4px 10px rgba(39, 140, 80, 0.23);
+      letter-spacing: 1.2px;
+      margin-top: 10px;
+    }
+    .hero-text .whatsapp-btn:hover { background: #128C7E; }
+
+    .products { margin: 40px 0 20px 0; }
+    .products h2 { text-align:center; color:#af5541; margin-bottom: 25px; }
+    .product-list { display: flex; flex-wrap: wrap; gap: 22px; justify-content: center;}
+    .product-item {
+      background: #fff;
+      border: 2px solid #f5c4a2;
+      border-radius: 13px;
+      max-width: 270px;
+      min-width:180px;
+      padding: 14px;
+      box-shadow: 0 4px 12px rgba(175,85,65, 0.06);
+      text-align: center;
+      transition: box-shadow 0.2s, transform 0.2s;
+    }
+    .product-item:hover { box-shadow: 0 8px 22px rgba(175,85,65,0.18); transform:translateY(-8px);}
+    .product-item img { width: 85%; border-radius: 8px; margin-bottom: 9px;}
+    .product-item h3 { color: #af5541; margin-bottom: 6px;}
+    .product-item p { font-size: 0.98rem; color: #4d3627; }
+
+    .contact-box {
+      background: #fdeede;
+      padding: 24px 18px;
+      max-width: 500px;
+      margin: 40px auto 0;
+      text-align: center;
+      border-radius: 13px;
+      box-shadow: 0 5px 15px rgba(175,85,65,0.13)
+    }
+    .contact-box h2 { color:#af5541; margin-bottom: 15px; }
+    .contact-box p { font-size: 1.08rem; margin-bottom: 7px;}
+    .contact-link { color:#25D366; font-weight:600; text-decoration:none;}
+    .contact-link:hover {text-decoration:underline;}
+    .address { font-size: 1rem; color: #78634e; margin:8px 0;}
+    .footer { background: #af5541; color: #fff; text-align: center; padding: 20px 10px; font-size: 1rem; margin-top: 43px; border-top: 4px solid #825835;}
+    @media (max-width: 800px) {
+      .hero { flex-direction: column; text-align: center;}
+      .hero-image { max-width: 250px;}
+      .hero-image img { width: 100%;}
+      .product-list { flex-direction:column; gap:30px;}
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Krithika's Home Foods</h1>
+    <p>Kukatpally, Gajularamaram, Hyderabad</p>
+  </header>
+  
+  <div class="container">
+    <section class="hero">
+      <div class="hero-image">
+        <!-- Replace the src below with your mascot image file/location if hosting locally -->
+        <img src="WhatsApp-Image-2025-11-25-at-13.26.08_c5774b5c.jpg" alt="Krithika's Home Foods Mascot"/>
+      </div>
+      <div class="hero-text">
+        <h2>Delicious & Healthy Homemade Dry Fruits</h2>
+        <p>Enjoy premium homemade dry fruits and snacks made with love from Krithika's Home Foods. Perfect for gifting, daily health, or festive treats. Hygienic, natural, and tasty!</p>
+        <a class="whatsapp-btn" href="https://wa.me/919989716650?text=Hi%2C%20I%20would%20like%20to%20order%20dry%20fruits!" target="_blank">Order on WhatsApp: 9989716650</a>
+      </div>
+    </section>
+
+    <section class="products">
+      <h2>Our Popular Products</h2>
+      <div class="product-list">
+        <div class="product-item">
+          <img src="https://images.unsplash.com/photo-1574226516831-e1dff420e10b?auto=format&fit=crop&w=400&q=80" alt="Almonds" />
+          <h3>Almonds</h3>
+          <p>Crunchy, rich in Vitamin E and antioxidants — great for daily health.</p>
+        </div>
+        <div class="product-item">
+          <img src="https://images.unsplash.com/photo-1585325701808-5539f4e049e2?auto=format&fit=crop&w=400&q=80" alt="Cashews" />
+          <h3>Cashews</h3>
+          <p>Creamy and sweet, packed with minerals for an energy boost.</p>
+        </div>
+        <div class="product-item">
+          <img src="https://images.unsplash.com/photo-1617191516986-4a57d59f8b87?auto=format&fit=crop&w=400&q=80" alt="Walnuts" />
+          <h3>Walnuts</h3>
+          <p>Excellent for brain health and full of omega 3 fatty acids.</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="contact-box">
+      <h2>Contact / Order</h2>
+      <p class="address">Kukatpally, Gajularamaram, Hyderabad</p>
+      <p>For order WhatsApp: <a class="contact-link" href="https://wa.me/919989716650" target="_blank">9989716650</a></p>
+    </div>
+  </div>
+  <div class="footer">
+    &copy; 2025 Krithika's Home Foods. All rights reserved.
+  </div>
+</body>
+</html>
